@@ -29,7 +29,16 @@ sistema-controle-despesas/
 └── docs/
 └── README.md
 
-##  Versões
+
+## Versões
 **v0.0.1** → Criação do menu principal com opções básicas.  
-**v0.0.2** → Adição das classes `Despesa` e `Usuario`.  
-**v0.1.0 (Final)** → Consolidação das entregas anteriores e documentação completa.
+**v0.0.2** → Separação de classes e definição do MVP inicial.  
+**v0.0.3** → MVP funcional completo, README documentado e tag de versão adicionada.  
+
+## Changelog
+
+### [v0.0.3] - MVP Pronto
+- Menu principal completo com todas as opções.
+- Classes `Despesa`, `TipoDespesa`, `Usuario` e `Pagamento` criadas.
+- Estrutura de diretórios revisada.
+- README documentado e atualizado.
