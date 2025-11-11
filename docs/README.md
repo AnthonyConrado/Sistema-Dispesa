@@ -1,24 +1,35 @@
 # Sistema de Controle de Despesas
 
-## Objetivo
-Desenvolver um sistema simples para **controle de despesas pessoais**, permitindo ao usuário registrar despesas, pagamentos e gerenciar categorias e usuários.  
-Todos os dados são armazenados em **arquivos de texto**, garantindo um formato leve e acessível.
+##  Objetivo
+Sistema simples para controle de despesas pessoais, permitindo o cadastro de despesas, pagamentos e usuários, com registro em arquivos de texto.
 
----
+##  Funcionalidades
+- Entrar nova despesa  
+- Anotar pagamento  
+- Listar despesas pagas ou em aberto  
+- Gerenciar tipos de despesa  
+- Gerenciar usuários (com criptografia de senha)
 
-## Funcionalidades
-- **Entrar nova despesa** (descrição, valor, vencimento e categoria)  
-- **Anotar pagamento** de uma despesa existente  
-- **Listar despesas** pagas ou em aberto (com filtros por período ou categoria)  
-- **Gerenciar tipos de despesa** (criar, editar e excluir categorias)  
-- **Gerenciar usuários**, com **criptografia de senha** para segurança  
+##  Conceitos de POO Utilizados
+- Classes e objetos  
+- Herança e polimorfismo  
+- Sobrecarga de construtores  
+- Métodos estáticos  
+- Criptografia simples
+  
+##  Estrutura de Pastas
 
----
+sistema-controle-despesas/
+│
+├── src/
+│ ├── Main.java
+│ ├── Despesa.java
+│ └── Usuario.java
+│
+└── docs/
+└── README.md
 
-## Conceitos de POO Aplicados
-- **Classes e Objetos** → modelagem das entidades principais  
-- **Herança e Polimorfismo** → especialização de tipos de despesa  
-- **Interfaces** → definição de contratos para classes pagáveis  
-- **Sobrecarga de Construtores** → flexibilidade na criação de objetos  
-- **Métodos e Atributos Estáticos** → controle global de contadores  
-- **Criptografia Simples** → proteção das senhas de usuários
+##  Versões
+**v0.0.1** → Criação do menu principal com opções básicas.  
+**v0.0.2** → Adição das classes `Despesa` e `Usuario`.  
+**v0.1.0 (Final)** → Consolidação das entregas anteriores e documentação completa.
